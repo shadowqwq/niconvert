@@ -1,5 +1,5 @@
-from niconvert.libass.config import Config
-from niconvert.libass.creater import Creater
+from libass.config import Config
+from libass.creater import Creater
 
 class Studio:
     ''' 字幕工程类 '''

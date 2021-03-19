@@ -1,5 +1,5 @@
 import json
-from niconvert.libsite import filters, bilibili
+from libsite import filters, bilibili
 
 class Danmaku:
 

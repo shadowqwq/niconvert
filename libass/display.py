@@ -1,4 +1,4 @@
-from niconvert.libass.utils import intceil, display_length
+from libass.utils import intceil, display_length
 
 class Display:
     ''' 显示方式 '''

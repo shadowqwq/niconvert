@@ -1,6 +1,6 @@
-from niconvert.libass.display import display_factory
-from niconvert.libass.collision import Collision
-from niconvert.libass.subtitle import Subtitle
+from libass.display import display_factory
+from libass.collision import Collision
+from libass.subtitle import Subtitle
 
 class Creater:
     ''' 创建器 '''

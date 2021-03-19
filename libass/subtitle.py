@@ -1,4 +1,4 @@
-from niconvert.libass.utils import s2hms, int2bgr, is_dark, correct_typos
+from libass.utils import s2hms, int2bgr, is_dark, correct_typos
 
 DIALOGUE_TPL = '''
 Dialogue: {layer},{start},{end},Danmaku,,0000,0000,0000,,{content}
@@ -54,8 +54,8 @@ class Subtitle:
 
     def _border_markup(self):
         # 暗色加个亮色边框，方便阅读
-        if is_dark(self.danmaku.color):
-            return '\\3c&HFFFFFF'
+        # if is_dark(self.danmaku.color):
+        #     return '\\3c&HFFFFFF'
         return ''
 
     def _font_size_markup(self):
